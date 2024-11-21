@@ -1,54 +1,87 @@
-"use client"
-import React, { useState } from 'react'
-import FormSection from '../_components/FormSection'
-import OutputSection from '../_components/OutputSection'
-import Templates from '@/app/(data)/Templates'
-import { TEMPLATE } from '../../_components/TemplateListSection'
-import { Button } from '@/components/ui/button'
-import { ArrowLeft} from 'lucide-react'
-import Link from 'next/link'
-import { chatSession } from '@/utils/AiModel'
+// import { Button } from "@/components/ui/button";
+// import Image from "next/image";
 
-interface PROPS{
-    params:{
-        'template-slug':string
-    }
-}
+// export default function Home() {
+//   return (
+//     <div>
+//       <h2>Subscribe to Quizzes !!</h2>
+//       <Button>Subscribe</Button>
+//     </div>
+//   );
+// }
 
-function CreateNewContent(props:PROPS) {
-  
-  const selectedTemplate:TEMPLATE|undefined=Templates?.find((item)=>item.slug==props.params['template-slug']);
-  const [loading,setLoading]=useState(false);
-  const [aiOutput,setAiOutput]=useState<string>('');
+// "use client"; 
+// import React, { useState } from 'react';
+// import SearchSection from './dashboard/_components/SearchSection'; 
+// import TemplateListSection from './dashboard/_components/TemplateListSection';
 
-  const GenerateAIContent=async(formData:any)=>{
-      setLoading(true);
-      const SelectedPrompt = selectedTemplate?.aiPrompt;
-      const FinalAIPrompt = JSON.stringify(formData)+", "+SelectedPrompt;
-      const result = await chatSession.sendMessage(FinalAIPrompt);
-      console.log(result.response.text());
-      setAiOutput(result?.response.text());
-      setLoading(false);
-  }
+// function Home() {
+//   const [userSearchInput, setUserSearchInput] = useState<string>(''); 
+
+//   return (
+//     <div>
+//       {/* Search Section */}
+//       <SearchSection onSearchInput={(value: string) => setUserSearchInput(value)} />
+//       {/* Template List Section */}
+//       <TemplateListSection userSearchInput={userSearchInput} />
+//     </div>
+//   );
+// }
+
+//export default Home;
+
+// "use client"; 
+// import { Button } from "@/components/ui/button";
+// import { useState } from "react";
+
+// export default function Home() {
+//   const [responseMessage, setResponseMessage] = useState("");
+
+//   const handleSubscribe = async () => {
+//     try {
+//       const response = await fetch("http://localhost:5000/predict", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({ }),
+//       });
+
+//       if (!response.ok) {
+//         throw new Error("Network response was not ok");
+//       }
+
+//       const data = await response.json();
+//       setResponseMessage(data.message);
+//     } catch (error) {
+//       console.error("Error connecting to the ML model:", error);
+//       setResponseMessage("Error connecting to the ML model.");
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <h2>Subscribe to Quizzes !!</h2>
+//       <Button onClick={handleSubscribe}>Subscribe</Button>
+//       {responseMessage && <p>{responseMessage}</p>} {/* Display the response message */}
+//     </div>
+//   );
+// }
+"use client"; 
+import { Button } from "@/components/ui/button"; // Ensure this path is correct
+import { useRouter } from "next/navigation"; // Use next/navigation for Next.js
+
+export default function Home() {
+  const router = useRouter(); // Use the Next.js router
+
+  const handleSubscribeClick = () => {
+    router.push('/subscribe'); // Use push for navigation
+  };
 
   return (
-    <div className='p-5'>
-      <Link href={"/dashboard"}>
-        <Button><ArrowLeft/>Back</Button>
-      </Link>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 p-5'>
-          {/* FormSection */}
-          <FormSection
-          selectedTemplate={selectedTemplate}
-          userFormInput={(v:any)=>GenerateAIContent(v)}
-          loading = {loading} />
-          {/* OutputSection */}
-          <div className='col-span-2'>
-            <OutputSection aiOutput={aiOutput}/>
-          </div>
-      </div>
+    <div>
+      <h2>Subscribe to Quizzes !!</h2>
+      <Button onClick={handleSubscribeClick}>Subscribe</Button>
     </div>
-  )
+  );
 }
-
-export default CreateNewContent

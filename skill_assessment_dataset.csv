@@ -1,0 +1,101 @@
+UserID,OOP_Level,CN_Level,DBMS_Level,OS_Level,DSA_Level,OOP_Hours,CN_Hours,DBMS_Hours,OS_Hours,DSA_Hours,Strengths,Areas_to_Focus,Recommended_Resources
+1,1,2,3,3,2,9,10,4,3,2,Proficient in database management,Concurrency and Multithreading,Computer Networks - Beginner
+2,3,1,2,1,1,10,5,1,4,4,Good grasp of fundamentals,Concurrency and Multithreading,Data Structures - Intermediate
+3,1,2,1,1,1,10,6,2,9,6,Effective communication,Operating Systems,Concurrency Patterns - Beginner
+4,3,3,1,1,2,4,3,9,9,7,Excellent coding skills,Data Structures,DBMS - Intermediate
+5,2,3,2,2,1,3,9,1,5,3,Strong problem solving,Computer Networks,Operating Systems - Advanced
+6,3,3,3,1,1,7,3,7,7,6,Solid understanding of OOP principles,Data Structures,Concurrency Patterns - Beginner
+7,2,1,3,1,2,10,3,6,5,9,Familiar with network protocols,Software Design Patterns,DBMS - Intermediate
+8,2,1,2,1,3,8,10,7,9,9,Proficient in database management,Data Structures,DSA - Advanced
+9,2,1,2,3,2,3,5,7,2,2,Good grasp of fundamentals,Concurrency and Multithreading,DBMS - Intermediate
+10,3,1,3,3,3,8,3,7,7,1,Effective communication,Algorithm Optimization,DSA - Advanced
+11,2,1,1,1,2,8,6,3,10,9,Strong problem solving,Advanced Database Management,OOP Concepts - Beginner
+12,3,3,2,3,3,8,5,10,2,1,Familiar with network protocols,Algorithm Optimization,Data Structures - Intermediate
+13,2,3,1,2,2,9,8,4,3,7,Familiar with network protocols,Computer Networks,DBMS - Intermediate
+14,2,3,1,1,3,8,10,5,1,1,Good grasp of fundamentals,Computer Networks,System Design - Advanced
+15,3,2,1,2,3,5,5,7,2,10,Effective communication,Concurrency and Multithreading,DSA - Advanced
+16,3,1,2,1,3,2,5,6,3,1,Deep understanding of algorithms,Algorithm Optimization,DBMS - Intermediate
+17,2,2,1,3,2,4,1,6,10,2,Familiar with network protocols,Data Structures,Operating Systems - Advanced
+18,2,2,2,2,1,2,9,9,3,7,Deep understanding of algorithms,Data Structures,System Design - Advanced
+19,3,1,3,3,2,5,10,10,3,8,Excellent coding skills,Data Structures,Computer Networks - Beginner
+20,1,2,2,1,2,3,4,8,5,3,Solid understanding of OOP principles,Software Design Patterns,Data Structures - Intermediate
+21,3,2,3,1,3,2,5,8,3,10,Familiar with network protocols,Networking Fundamentals,DSA - Advanced
+22,3,1,1,3,3,1,7,1,7,1,Solid understanding of OOP principles,Algorithm Optimization,DSA - Advanced
+23,3,1,1,1,1,2,5,6,1,3,Excellent coding skills,Networking Fundamentals,OOP Concepts - Beginner
+24,1,3,2,1,2,1,4,9,2,5,Excellent coding skills,Networking Fundamentals,DSA - Advanced
+25,3,1,3,2,2,1,3,3,7,3,Effective communication,Operating Systems,Concurrency Patterns - Beginner
+26,1,3,2,2,1,1,10,9,2,1,Solid understanding of OOP principles,Data Structures,DSA - Advanced
+27,1,1,3,1,3,9,10,7,8,1,Familiar with network protocols,Computer Networks,System Design - Advanced
+28,3,1,3,3,1,9,9,6,10,5,Proficient in database management,Networking Fundamentals,Concurrency Patterns - Beginner
+29,3,2,2,2,1,9,2,4,7,2,Strong problem solving,Data Structures,OOP Concepts - Beginner
+30,3,1,3,2,2,3,8,6,8,1,Excellent coding skills,Data Structures,Computer Networks - Beginner
+31,3,1,3,1,1,9,1,9,9,10,Excellent coding skills,Operating Systems,Operating Systems - Advanced
+32,2,1,3,3,1,7,3,7,5,5,Excellent coding skills,Software Design Patterns,Computer Networks - Beginner
+33,2,2,2,3,1,10,2,10,1,7,Excellent coding skills,Concurrency and Multithreading,Computer Networks - Beginner
+34,2,2,1,1,3,6,9,4,1,6,Deep understanding of algorithms,Computer Networks,Computer Networks - Beginner
+35,1,1,2,2,1,7,5,1,1,7,Solid understanding of OOP principles,Networking Fundamentals,OOP Concepts - Beginner
+36,1,1,1,1,1,4,6,3,1,3,Solid understanding of OOP principles,Data Structures,Computer Networks - Beginner
+37,2,3,1,3,1,7,8,3,8,3,Effective communication,Software Design Patterns,Computer Networks - Beginner
+38,2,1,1,3,2,2,7,1,5,5,Excellent coding skills,Operating Systems,System Design - Advanced
+39,1,1,3,1,1,7,5,6,10,2,Good grasp of fundamentals,Algorithm Optimization,System Design - Advanced
+40,1,1,3,1,2,3,1,2,7,1,Effective communication,Software Design Patterns,Concurrency Patterns - Beginner
+41,3,2,1,3,3,7,3,8,1,1,Deep understanding of algorithms,Networking Fundamentals,System Design - Advanced
+42,1,3,2,2,2,1,1,2,9,1,Familiar with network protocols,Concurrency and Multithreading,OOP Concepts - Beginner
+43,3,3,1,2,3,7,4,10,8,3,Excellent coding skills,Advanced Database Management,Concurrency Patterns - Beginner
+44,1,1,1,2,1,2,10,1,9,3,Good grasp of fundamentals,Networking Fundamentals,Operating Systems - Advanced
+45,3,1,2,1,1,7,6,4,1,5,Deep understanding of algorithms,Software Design Patterns,Concurrency Patterns - Beginner
+46,3,3,2,1,1,2,8,8,6,8,Strong problem solving,Software Design Patterns,Concurrency Patterns - Beginner
+47,1,1,2,1,1,2,3,1,9,7,Proficient in database management,Concurrency and Multithreading,Data Structures - Intermediate
+48,2,2,3,2,2,10,9,1,9,4,Effective communication,Software Design Patterns,Computer Networks - Beginner
+49,1,1,2,3,1,6,1,4,6,1,Excellent coding skills,Networking Fundamentals,Data Structures - Intermediate
+50,2,1,3,3,1,7,1,7,9,6,Strong problem solving,Computer Networks,DSA - Advanced
+51,2,1,3,2,2,7,6,2,6,4,Strong problem solving,Computer Networks,DBMS - Intermediate
+52,3,2,2,3,2,5,5,1,5,7,Good grasp of fundamentals,Data Structures,DBMS - Intermediate
+53,2,2,1,3,1,8,10,1,7,1,Excellent coding skills,Networking Fundamentals,DSA - Advanced
+54,2,3,2,3,3,2,4,9,4,4,Effective communication,Data Structures,Data Structures - Intermediate
+55,1,1,2,1,1,8,9,4,1,3,Excellent coding skills,Concurrency and Multithreading,System Design - Advanced
+56,2,2,2,2,3,9,5,9,4,2,Solid understanding of OOP principles,Networking Fundamentals,Data Structures - Intermediate
+57,1,1,3,3,1,9,7,1,1,9,Strong problem solving,Software Design Patterns,Concurrency Patterns - Beginner
+58,1,2,2,2,2,6,2,5,7,2,Strong problem solving,Networking Fundamentals,OOP Concepts - Beginner
+59,1,1,1,1,1,4,9,3,3,3,Good grasp of fundamentals,Concurrency and Multithreading,Data Structures - Intermediate
+60,1,2,1,1,1,6,6,9,9,2,Excellent coding skills,Algorithm Optimization,OOP Concepts - Beginner
+61,1,3,2,2,2,3,4,7,5,8,Strong problem solving,Software Design Patterns,DBMS - Intermediate
+62,2,3,2,1,2,4,8,9,10,9,Solid understanding of OOP principles,Advanced Database Management,Operating Systems - Advanced
+63,3,2,2,2,1,3,8,3,4,5,Familiar with network protocols,Concurrency and Multithreading,Data Structures - Intermediate
+64,3,2,1,3,1,7,8,10,9,9,Strong problem solving,Concurrency and Multithreading,Data Structures - Intermediate
+65,3,3,2,3,2,8,1,5,9,1,Proficient in database management,Computer Networks,Operating Systems - Advanced
+66,2,1,3,3,3,9,6,2,10,3,Deep understanding of algorithms,Algorithm Optimization,Data Structures - Intermediate
+67,1,1,1,2,3,5,4,4,6,5,Excellent coding skills,Networking Fundamentals,DSA - Advanced
+68,1,1,2,2,1,4,5,7,5,2,Excellent coding skills,Computer Networks,Data Structures - Intermediate
+69,2,2,1,1,2,1,7,8,6,7,Proficient in database management,Data Structures,DBMS - Intermediate
+70,2,3,1,1,2,5,4,5,1,5,Familiar with network protocols,Networking Fundamentals,Computer Networks - Beginner
+71,3,1,3,3,2,3,7,10,4,8,Familiar with network protocols,Operating Systems,Concurrency Patterns - Beginner
+72,2,1,1,3,3,4,7,5,10,5,Familiar with network protocols,Networking Fundamentals,Operating Systems - Advanced
+73,1,3,1,1,3,10,6,4,9,5,Familiar with network protocols,Computer Networks,Computer Networks - Beginner
+74,3,1,2,3,3,2,4,3,5,3,Deep understanding of algorithms,Computer Networks,Operating Systems - Advanced
+75,2,1,2,2,2,10,1,7,7,1,Excellent coding skills,Computer Networks,Concurrency Patterns - Beginner
+76,1,1,3,3,3,7,10,7,2,5,Deep understanding of algorithms,Operating Systems,Concurrency Patterns - Beginner
+77,2,1,3,3,1,3,2,2,4,3,Familiar with network protocols,Concurrency and Multithreading,Operating Systems - Advanced
+78,1,3,3,3,2,7,2,5,1,5,Effective communication,Computer Networks,OOP Concepts - Beginner
+79,3,3,2,3,3,5,9,4,4,9,Deep understanding of algorithms,Software Design Patterns,DBMS - Intermediate
+80,1,3,2,3,2,4,5,2,6,2,Deep understanding of algorithms,Software Design Patterns,System Design - Advanced
+81,3,1,1,3,3,3,4,10,5,1,Excellent coding skills,Advanced Database Management,Computer Networks - Beginner
+82,3,1,2,3,1,9,9,1,5,5,Deep understanding of algorithms,Algorithm Optimization,DBMS - Intermediate
+83,3,2,2,1,3,7,1,6,10,10,Good grasp of fundamentals,Computer Networks,DSA - Advanced
+84,2,3,3,3,1,8,1,1,8,5,Solid understanding of OOP principles,Algorithm Optimization,Data Structures - Intermediate
+85,2,1,1,2,3,9,4,8,10,6,Effective communication,Advanced Database Management,OOP Concepts - Beginner
+86,3,2,2,2,1,6,3,7,6,1,Strong problem solving,Software Design Patterns,Computer Networks - Beginner
+87,3,1,3,1,2,4,6,6,2,8,Solid understanding of OOP principles,Advanced Database Management,System Design - Advanced
+88,2,1,3,2,1,6,10,8,8,8,Familiar with network protocols,Concurrency and Multithreading,Operating Systems - Advanced
+89,1,2,2,2,1,10,4,7,10,6,Solid understanding of OOP principles,Data Structures,Operating Systems - Advanced
+90,3,3,3,3,1,7,6,1,6,1,Strong problem solving,Computer Networks,OOP Concepts - Beginner
+91,2,2,2,1,1,9,8,1,8,2,Good grasp of fundamentals,Data Structures,Data Structures - Intermediate
+92,1,3,2,1,3,1,5,4,7,9,Excellent coding skills,Data Structures,Concurrency Patterns - Beginner
+93,3,1,2,2,3,7,5,9,8,9,Proficient in database management,Algorithm Optimization,System Design - Advanced
+94,3,1,3,1,3,1,2,1,5,8,Familiar with network protocols,Networking Fundamentals,DBMS - Intermediate
+95,3,2,3,2,1,5,3,8,4,2,Effective communication,Operating Systems,Data Structures - Intermediate
+96,3,3,3,1,2,5,2,8,2,5,Effective communication,Data Structures,DSA - Advanced
+97,2,1,2,1,1,10,1,10,9,10,Strong problem solving,Advanced Database Management,DBMS - Intermediate
+98,3,2,3,1,1,10,4,3,9,3,Excellent coding skills,Advanced Database Management,DBMS - Intermediate
+99,3,1,2,3,1,10,1,10,4,3,Familiar with network protocols,Software Design Patterns,Computer Networks - Beginner
+100,1,2,2,3,2,2,7,4,4,8,Solid understanding of OOP principles,Networking Fundamentals,Operating Systems - Advanced
